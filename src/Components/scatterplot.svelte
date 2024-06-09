@@ -4,7 +4,7 @@
   
   let ceoData = [];
   onMount(async () => {
-    const response = await fetch('/CEO-visualization/ceo_data_b.json');
+    const response = await fetch('/CEOs-HATE-This-Simple-Trick/ceo_data_b.json');
     ceoData = await response.json();
 
     const industries = Array.from(new Set(ceoData.map(d => d.Industry)));

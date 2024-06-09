@@ -3,7 +3,7 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 
 export default defineConfig({
   plugins: [svelte()],
-  base: '/CEO-visualization/',  // Adjust this if deploying to a subpath, use './' or '/' if at the root
+  base: '/CEOs-HATE-This-Simple-Trick/',  // Adjust this if deploying to a subpath, use './' or '/' if at the root
   build: {
     outDir: 'dist',  // Customize the output directory
     rollupOptions: {
